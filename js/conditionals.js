@@ -28,13 +28,27 @@ if (a > b && b < c) {
   console.log("Sorry, you are missing at least one value");
 }
 
-switch ((a, b, c)) {
-  case a < b:
-    console.log(a + b);
-    brake;
-  case a > b:
-    console.log(a - b);
+switch (false) {
+  case a > b && b < c:
+    console.log(a + b + c);
+    break;
+  case a > b && b > c:
+    console.log(a + b * c);
     break;
   default:
-    console.log(a * b);
+    console.log("Sorry, you are missing at least one value");
+}
+
+const job = "teacher";
+
+switch (job) {
+  case "teacher":
+  case "instructor":
+    console.log("John is a " + job);
+    break;
+  case "driver":
+    console.log("John is a " + job);
+    break;
+  default:
+    console.log("John does something else!");
 }
