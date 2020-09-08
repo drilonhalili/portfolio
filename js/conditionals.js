@@ -20,6 +20,13 @@ if (a < b && b < c) {
   console.log("Sorry, you are missing at least one value");
 }
 
+//Turnery operators
+
+const sum =
+  a < b && b < c ? a + b + c : "Sorry, you are missing at least one value";
+
+console.log(sum);
+
 if (a > b && b < c) {
   console.log(a + b + c);
 } else if (a > b && b > c) {
