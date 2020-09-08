@@ -38,35 +38,35 @@ obj = { second: 'ref2' }
 console.log(obj2) --> ?
 */
 
-//Object
-let person = {
-  name: "Drilon",
-  age: 29,
-  address: {
-    street: 164,
-    number: 12,
-    city: "Tetovo",
-  },
-};
+// //Object
+// let person = {
+//   name: "Drilon",
+//   age: 29,
+//   address: {
+//     street: 164,
+//     number: 12,
+//     city: "Tetovo",
+//   },
+// };
 
-//Array
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let names = ["John", "Mike", "Mosh"];
-let mixedContent = ["John", 29, 10, "Mike"];
+// //Array
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let names = ["John", "Mike", "Mosh"];
+// let mixedContent = ["John", 29, 10, "Mike"];
 
-/* Assign the created object and array to new variables. */
-let newObject = new Object();
-let newArray = new Array();
+// /* Assign the created object and array to new variables. */
+// let newObject = new Object();
+// let newArray = new Array();
 
-newObject = person;
-newArray = names;
+// newObject = person;
+// newArray = names;
 
-newObject.name = "Bred";
-newArray[0] = "Bred";
+// newObject.name = "Bred";
+// newArray[0] = "Bred";
 
-console.log(person);
-console.log(numbers);
-console.log(names);
-console.log(mixedContent);
-console.log(newObject);
-console.log(newArray);
+// console.log(person);
+// console.log(numbers);
+// console.log(names);
+// console.log(mixedContent);
+// console.log(newObject);
+// console.log(newArray);
