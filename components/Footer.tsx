@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="text-center">
           <h2 className="font-medium text-gray-700 text-4xl md:text-5xl mb-5">
             Testimonial
-          </h1>
+          </h2>
           <p className="font-normal text-gray-400 text-md md:text-lg mb-20">
             I’m not currently taking on new client work but feel free to contact
             me for any other inquiries.
