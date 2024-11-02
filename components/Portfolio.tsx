@@ -1,3 +1,5 @@
+import { ExternalLink } from "lucide-react"
+
 const projects = [
   {
     number: "01",
@@ -18,7 +20,7 @@ const projects = [
     title: "My Portfolio",
     description:
       "A personal showcase built with Next.js, Framer Motion, TailwindCSS, TypeScript, and tailwindcss-animate. This project highlights my skills and the diverse range of projects I've developed, offering a seamless and visually engaging user experience through smooth animations and modern design principles.",
-    link: "https://drilonhalili.com"
+    link: "https://drilonhalili.pro"
   }
 ]
 
@@ -48,11 +50,17 @@ function PortfolioItem({
         <p className="font-normal text-gray-500 dark:text-gray-300 text-sm md:text-base">
           {description}
         </p>
-        <h6 className="font-semibold text-gray-500 dark:text-gray-100 text-md relative z-10 mt-3 cursor-pointer">
-          <a href={link} target="_blank" rel="noopener noreferrer">
+        <h3 className="font-semibold text-gray-500 dark:text-gray-100 text-md relative z-10 mt-3 cursor-pointer inline-flex">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={title + " open in new tab"}
+          >
             See the project here
           </a>
-        </h6>
+          <ExternalLink className="pl-2" />
+        </h3>
       </div>
     </div>
   )
@@ -64,9 +72,9 @@ export default function Portfolio() {
       <div className="container max-w-screen-xl mx-auto px-4">
         <div className="flex flex-col lg:flex-row justify-between gap-20">
           <div className="mb-10 lg:mb-0">
-            <h1 className="font-medium text-gray-700 dark:text-gray-100 text-3xl md:text-4xl mb-5">
+            <h2 className="font-medium text-gray-700 dark:text-gray-100 text-3xl md:text-4xl mb-5">
               Portfolio
-            </h1>
+            </h2>
             <p className="font-normal text-gray-500 dark:text-gray-300 text-xs md:text-base">
               I have brought here my biggest and favorite works as a
               professional.

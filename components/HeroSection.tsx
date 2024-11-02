@@ -6,26 +6,32 @@ import { Instagram, Linkedin, Github, Facebook, Twitter, Mail  } from "lucide-re
 const socialLinks = [
   {
     icon: <Instagram size={32} />,
+    name: "Instagram",
     url: "https://www.instagram.com/drilon.halili/"
   },
   {
     icon: <Linkedin size={32} />,
+    name: "Linkedin",
     url: "https://www.linkedin.com/in/drilonhalili/"
   },
   {
     icon: <Github size={32} />,
+    name: "Github",
     url: "https://github.com/drilonhalili"
   },
   {
     icon: <Twitter size={32} />,
+    name: "Twitter",
     url: "https://x.com/drilonhalili12"
   },
   {
     icon: <Facebook size={32} />,
+    name: "Facebook",
     url: "https://www.facebook.com/drilon.halili"
   },
   {
     icon: <Mail size={32} />,
+    name: "Mail",
     url: "mailto:drilon.halili@gmail.com"
   }
 ]
@@ -45,12 +51,12 @@ export default function HeroSection() {
               className="rounded-full"
             />
           </div>
-          <h6 className="font-medium text-gray-600 dark:text-gray-400 text-lg md:text-2xl uppercase mb-8">
+          <h6 className="font-medium text-black dark:text-white text-lg md:text-2xl uppercase mb-8">
             Drilon Halili
           </h6>
-          <h1 className="font-normal text-gray-900 dark:text-gray-200 text-4xl md:text-7xl leading-none mb-8">
+          <h2 className="font-normal text-gray-900 dark:text-gray-200 text-4xl md:text-7xl leading-none mb-8">
             Senior Frontend Developer
-          </h1>
+          </h2>
           <p className="font-normal text-gray-600 dark:text-gray-200 text-md md:text-xl mb-16">
             My goal is to create software that serves users effectively,
             providing powerful, user-friendly tools that enhance efficiency and
@@ -58,9 +64,13 @@ export default function HeroSection() {
           </p>
           <div className="flex justify-center items-center gap-8 m-auto">
             {socialLinks.map((item, index) => (
-              <Link href={item.url} key={index}>
-                {item.icon}
-              </Link>
+              <ul key={index}>
+                <li>
+                  <Link href={item.url} aria-label={item.name}>
+                    {item.icon}
+                  </Link>
+                </li>
+              </ul>
             ))}
           </div>
         </div>

@@ -31,9 +31,9 @@ export default function Skills() {
     <section>
       <div className="container max-w-screen-xl mx-auto px-4">
         <div className="text-center">
-          <h1 className="font-normal text-center text-gray-300 text-3xl md:text-6xl lg:text-7xl">
+          <h2 className="font-normal text-center text-gray-300 text-3xl md:text-6xl lg:text-7xl">
             <TypewriterEffectSmooth words={words} className="justify-center" />
-          </h1>
+          </h2>
         </div>
       </div>
     </section>
