@@ -9,7 +9,7 @@ export default function Features() {
             </div>
             <h3 className="font-medium text-gray-700 text-lg mb-4">
               High experience
-            </h4>
+            </h3>
             <p className="font-normal text-gray-500 text-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -21,7 +21,7 @@ export default function Features() {
             </div>
             <h3 className="font-medium text-gray-700 text-lg mb-4">
               Useful sandboxes
-            </h4>
+            </h3>
             <p className="font-normal text-gray-500 text-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -33,7 +33,7 @@ export default function Features() {
             </div>
             <h3 className="font-medium text-gray-700 text-lg mb-4">
               Success side projects
-            </h4>
+            </h3>
             <p className="font-normal text-gray-500 text-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
