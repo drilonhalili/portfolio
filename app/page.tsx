@@ -27,7 +27,3 @@ export default function Home() {
     </main>
   )
 }
-
-// Sticky Scroll Reveal
-// Tracing Beam
-// Flip Words
