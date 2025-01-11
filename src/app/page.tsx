@@ -1,10 +1,10 @@
 "use client"
 
-import HeroSection from "@/components/HeroSection"
-import Portfolio from "@/components/Portfolio"
-import Education from "@/components/Education"
-import Skills from "@/components/Skills"
-import Experience from "@/components/Experience"
+import HeroSection from "@/src/app/components/HeroSection"
+import Portfolio from "@/src/app/components/Portfolio"
+import Education from "@/src/app/components/Education"
+import Skills from "@/src/app/components/Skills"
+import Experience from "@/src/app/components/Experience"
 
 export default function Home() {
   return (
