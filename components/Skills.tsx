@@ -1,4 +1,5 @@
 "use client"
+
 import { TypewriterEffectSmooth } from "./ui/TypewriterEffect"
 
 const words = [

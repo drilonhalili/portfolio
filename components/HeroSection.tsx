@@ -1,6 +1,8 @@
 import Image from "next/image";
-import Navbar from "./Navbar";
 import Link from "next/link";
+
+import Navbar from "./Navbar";
+
 import { Instagram, Linkedin, Github, Facebook, Twitter, Mail  } from "lucide-react";
 
 const socialLinks = [

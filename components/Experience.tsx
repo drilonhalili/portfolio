@@ -1,4 +1,3 @@
-import { url } from "inspector"
 import { ExternalLink } from "lucide-react"
 
 function calculateExperience() {
