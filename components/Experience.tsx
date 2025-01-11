@@ -50,7 +50,7 @@ const experience = [
     company: "Ecolog International",
     year: "Jun 2016 - Jun 2019 · 3 yrs 2 months",
     description:
-      "Ready to organize the team and be responsible for the dayay operations of the warehouse and department. Records purchases, maintains database, performs physical count of inventory, and reconciles actual stock count to computer-generated reports, Coordinating the shipment of goods from the warehouse. Working with Operations Manager to provide financial analysis, forecasting, assistance with budget preparation, cost control and performance to budget, maintain budget file.",
+      "Ready to organize the team and be responsible for the day operations of the warehouse and department. Records purchases, maintains database, performs physical count of inventory, and reconciles actual stock count to computer-generated reports, Coordinating the shipment of goods from the warehouse. Working with Operations Manager to provide financial analysis, forecasting, assistance with budget preparation, cost control and performance to budget, maintain budget file.",
     url: "https://ecolog-international.com"
   },
   {
