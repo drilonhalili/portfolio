@@ -3,9 +3,15 @@ import { ExternalLink } from "lucide-react"
 function calculateExperience() {
   const startDate = new Date("June 2022")
   const currentDate = new Date()
-  const years = currentDate.getFullYear() - startDate.getFullYear()
-  const months = currentDate.getMonth() - startDate.getMonth()
-  const totalMonths = years * 12 + months
+
+  let years = currentDate.getFullYear() - startDate.getFullYear()
+  let months = currentDate.getMonth() - startDate.getMonth()
+
+  if (months < 0) {
+    years--
+    months += 12
+  }
+
   return {
     years,
     months
@@ -26,7 +32,7 @@ const experience = [
   {
     title: "Frontend Developer",
     company: "FreelanceFreelance",
-    year: "May 2021 - Jun 2022 · 1 yrs 1 mo",
+    year: "May 2021 - Jun 2022 · 1 yrs 1 month",
     description:
       "Working as a React Developer for a project that provides a video-chat by connecting the customer with the client.",
     url: "https://freelancer.com"
@@ -42,7 +48,7 @@ const experience = [
   {
     title: "Stock Management - United Nation “MINUSCA”",
     company: "Ecolog International",
-    year: "Jun 2016 - Jun 2019 · 3 yrs 2 mo",
+    year: "Jun 2016 - Jun 2019 · 3 yrs 2 months",
     description:
       "Ready to organize the team and be responsible for the dayay operations of the warehouse and department. Records purchases, maintains database, performs physical count of inventory, and reconciles actual stock count to computer-generated reports, Coordinating the shipment of goods from the warehouse. Working with Operations Manager to provide financial analysis, forecasting, assistance with budget preparation, cost control and performance to budget, maintain budget file.",
     url: "https://ecolog-international.com"
